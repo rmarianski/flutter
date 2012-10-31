@@ -1,5 +1,5 @@
 (ns flutter.value
-  (:use [hiccup.core :only [escape-html]]))
+  (:use [hiccup.util :only [escape-html]]))
 
 (defn wrap-value
   "Adds flutter type :value, which just returns the value passed in"

@@ -1,5 +1,5 @@
 (ns flutter.html4.text-area
-  (:use [hiccup.core :only [escape-html]]))
+  (:use [hiccup.util :only [escape-html]]))
 
 (defn wrap-text-area
   "provides the :text-area element type, value is placed as the content
